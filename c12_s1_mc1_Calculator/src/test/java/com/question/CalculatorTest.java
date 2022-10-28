@@ -13,7 +13,6 @@ public class CalculatorTest {
     public void setUp() throws Exception {
         calculator =new Calculator();
     }
-
     @After
     public void tearDown() throws Exception {
         calculator = null;
